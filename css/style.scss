@@ -228,9 +228,50 @@ span{
    
 }
 
-@media screen and (max-width: 480px) {
-    .main-box{
+@media screen and (max-width: 780px) and (max-width:1024px){
+    .container{
+      width: 90%;
+      height: auto;
+  }
+  .box2{
+    width: 90vw;
+    height: auto;
+  }
+  .box-img{
+    width: 90vw;
+    height: auto;
+  }
+  
+  }
+  
+  @media screen and (max-width: 480px) and (max-width:780px){
+    .container{
+      width: 90%;
+      height: auto;
+  }
+  .box2{
+    width: 90vw;
+    height: auto;
+  }
+  .box-img{
+    width: 90vw;
+    height: auto;
+  }
+  
+  }
+  
+  @media screen and (max-width: 480px) {
+    .container{
         width: 90%;
+        height: auto;
+    }
+    .box2{
+      width: 90vw;
+      height: auto;
+    }
+    .box-img{
+      width: 90vw;
+      height: auto;
     }
     
-}
+  }
