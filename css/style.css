@@ -179,7 +179,11 @@ span {
   text-align: center;
   width: 60%;
   height: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   margin-left: 20%;
+  
 }
 
 .intentos {
@@ -204,9 +208,8 @@ span {
   box-shadow: 3px 3px 3px 3px #ccc;
 }
 
-.bg {
+#background{
   background-color: rgba(0, 0, 0, 0.61);
-  border: 5px solid;
   width: 100vw;
   height: 100vh;
   position: absolute;
@@ -217,37 +220,7 @@ span {
   height: 200px;
   margin-top: 3%;
 }
-@media screen and (max-width: 780px) and (max-width:1024px){
-  .container{
-    width: 90%;
-    height: auto;
-}
-.box2{
-  width: 90vw;
-  height: auto;
-}
-.box-img{
-  width: 90vw;
-  height: auto;
-}
 
-}
-
-@media screen and (max-width: 480px) and (max-width:780px){
-  .container{
-    width: 90%;
-    height: auto;
-}
-.box2{
-  width: 90vw;
-  height: auto;
-}
-.box-img{
-  width: 90vw;
-  height: auto;
-}
-
-}
 
 @media screen and (max-width: 480px) {
   .container{
@@ -259,8 +232,7 @@ span {
     height: auto;
   }
   .box-img{
-    width: 90vw;
-    height: auto;
+    width: 30%;
   }
   
 }
