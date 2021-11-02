@@ -227,3 +227,10 @@ span{
     margin-top: 3%;
    
 }
+
+@media screen and (max-width: 480px) {
+    .main-box{
+        width: 90%;
+    }
+    
+}

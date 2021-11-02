@@ -21,7 +21,7 @@ body {
 .container {
   position: absolute;
   top: 0;
-  height: 350px;
+  height: auto;
   width: 24%;
   border: 12px solid black;
   background-color: #f9e9e0;
@@ -194,7 +194,7 @@ span {
 
 .imgg {
   width: 130px;
-  height: 130px;
+  height: auto;
   margin: 1% 1% 1% 1%;
   border: 1px solid orange;
   box-shadow: 3px 3px 3px 3px #ccc;
@@ -212,6 +212,19 @@ span {
   margin-left: 40%;
   height: 200px;
   margin-top: 3%;
+}
+
+@media screen and (max-width: 480px) {
+  .main-box{
+      width: 100%;
+  }
+  .box2{
+    width: 100%;
+  }
+  .box-img{
+    width: 90%;
+  }
+  
 }
 
 /*# sourceMappingURL=style.css.map */

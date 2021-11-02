@@ -1,3 +1,4 @@
+let imagen = $(".imgg").removeClass("animate__animated animate__flip")
 let contadorInt = $("#int")
 let dificultad = $("#p1")
 let cantidadIntentos = $("#p2")
